@@ -447,7 +447,7 @@ h5,
           text-align: center;
         }
         .one-third {
-          width: 70%;
+          width: 60%;
           position: relative;
           z-index: -1;
           @include media-breakpoint-down(md) {
@@ -456,7 +456,7 @@ h5,
           }
         }
         .one-forth {
-          width: 30%;
+          width: 40%;
           position: relative;
           @include media-breakpoint-down(md) {
             width: 100%;
@@ -475,6 +475,7 @@ h5,
         }
         .text {
           position: relative;
+          width: 100%;
           z-index: 1;
           @include media-breakpoint-up(lg) {
             margin-right: -250px;
@@ -485,7 +486,7 @@ h5,
           }
         }
         h1 {
-          font-size: 60px;
+          font-size: 30px;
           color: $black;
           line-height: 1.5;
           font-weight: 900;
@@ -1372,9 +1373,6 @@ textarea.form-control {
 }
 .border-line {
   position: relative;
-  p {
-    color: rgba(0, 0, 0, 0.5);
-  }
 }
 
 //COVER BG

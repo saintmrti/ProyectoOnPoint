@@ -9201,7 +9201,7 @@ h5,
   }
 }
 .owl-carousel.home-slider .slider-item .slider-text .one-third {
-  width: 70%;
+  width: 60%;
   position: relative;
   z-index: -1;
 }
@@ -9212,7 +9212,7 @@ h5,
   }
 }
 .owl-carousel.home-slider .slider-item .slider-text .one-forth {
-  width: 30%;
+  width: 40%;
   position: relative;
 }
 @media (max-width: 991.98px) {
@@ -9233,6 +9233,7 @@ h5,
 }
 .owl-carousel.home-slider .slider-item .slider-text .text {
   position: relative;
+  width: 100%;
   z-index: 1;
 }
 @media (min-width: 992px) {
@@ -9247,7 +9248,7 @@ h5,
   }
 }
 .owl-carousel.home-slider .slider-item .slider-text h1 {
-  font-size: 60px;
+  font-size: 30px;
   color: #000000;
   line-height: 1.5;
   font-weight: 900;
@@ -10119,9 +10120,6 @@ textarea.form-control {
 
 .border-line {
   position: relative;
-}
-.border-line p {
-  color: rgba(0, 0, 0, 0.5);
 }
 
 .hotel-img,
