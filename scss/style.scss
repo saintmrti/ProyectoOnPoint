@@ -1332,6 +1332,13 @@ textarea.form-control {
       font-size: 28px;
     }
   }
+  // h3 {
+  //   font-size: 24px;
+  //   // text-transform: uppercase;
+  //   @include media-breakpoint-down(sm) {
+  //     font-size: 24px;
+  //   }
+  // }
   &.heading-section-with-line {
     position: relative;
     &:after {
