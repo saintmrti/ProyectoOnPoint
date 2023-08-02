@@ -776,6 +776,15 @@ h5,
           color: $primary;
         }
       }
+      li {
+        list-style-type: none;
+      }
+
+      li::before {
+        content: "❖";
+        color: $primary;
+        // margin-right: 5px;
+      }
     }
   }
 }

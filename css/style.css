@@ -9542,6 +9542,13 @@ h5,
   font-size: 50px;
   color: #ed3045;
 }
+.ftco-services .services.services-2 li {
+  list-style-type: none;
+}
+.ftco-services .services.services-2 li::before {
+  content: "❖";
+  color: #ed3045;
+}
 
 @media (max-width: 767.98px) {
   .img-2 {
