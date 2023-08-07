@@ -904,8 +904,9 @@ h5,
 .staff {
   @include transition(0.3s);
   .img {
-    height: 320px;
-    background-position: top center;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
   }
   .text {
     background: $white;
@@ -1098,6 +1099,14 @@ textarea.form-control {
   }
   .bio {
   }
+}
+
+.btn-whatsapp {
+  position: fixed;
+  background-color: #25d366;
+  bottom: 20px;
+  right: 20px;
+  z-index: 10;
 }
 
 .ftco-section {

@@ -9679,8 +9679,9 @@ h5,
   transition: all 0.3s ease;
 }
 .staff .img {
-  height: 320px;
-  background-position: top center;
+  height: 300px;
+  background-position: center;
+  background-size: cover;
 }
 .staff .text {
   background: #fff;
@@ -9866,6 +9867,14 @@ textarea.form-control {
 .about-author .desc h3 {
   font-size: 24px;
 }
+.btn-whatsapp {
+  position: fixed;
+  background-color: #25d366;
+  bottom: 20px;
+  right: 20px;
+  z-index: 10;
+}
+
 .ftco-section {
   padding: 7em 0;
   position: relative;
